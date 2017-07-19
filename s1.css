@@ -1,0 +1,80 @@
+html, body, .side {background-color: #F6F7EB; }
+
+h1 {
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    line-height: 1.2em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* 麻将脸 */
+a[href|="/mj"] {
+    display: inline-block;
+    clear: none;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    font-size: 0;
+    vertical-align: middle;
+}
+a[href|="/mj-chishi"], a[href|="/mj-1"] {
+    background-image: url(%%chishi-1%%);
+}
+a[href|="/mj-nanyiyanyu"], a[href|="/mj-2"] {
+    background-image: url(%%nanyiyanyu-2%%);
+}
+a[href|="/mj-keke"], a[href|="/mj-3"] {
+    background-image: url(%%keke-3%%);
+}
+a[href|="/mj-baiban"], a[href|="/mj-4"] {
+    background-image: url(%%baiban-4%%);
+}
+a[href|="/mj-toudingqingtian"], a[href|="/mj-5"] {
+    background-image: url(%%toudingqingtian-5%%);
+}
+a[href|="/mj-chijing"], a[href|="/mj-6"] {
+    background-image: url(%%chijing-6%%);
+}
+a[href|="/mj-zichuoshuangmu"], a[href|="/mj-7"] {
+    background-image: url(%%zichuoshuangmu-7%%);
+}
+a[href|="/mj-lianhong"], a[href|="/mj-8"] {
+    background-image: url(%%lianhong-8%%);
+}
+a[href|="/mj-hecha"], a[href|="/mj-9"] {
+    background-image: url(%%hecha-9%%);
+}
+a[href|="/mj-prpr"], a[href|="/mj-10"] {
+    background-image: url(%%prpr-10%%);
+}
+a[href|="/mj-bixie"], a[href|="/mj-11"] {
+    background-image: url(%%bixie-11%%);
+}
+a[href|="/mj-zhijin"], a[href|="/mj-12"] {
+    background-image: url(%%zhijin-12%%);
+}
+a[href|="/mj-niuqu"], a[href|="/mj-13"] {
+    background-image: url(%%niuqu-13%%);
+}
+
+/* 麻将脸 */
+
+ /*----- 更换用户头衔 -----*/
+
+ div.titlebox span.word {      /*disables default text*/
+display: none
+}
+
+ p.users-online span.number:after {    /*将 'users here now' 变为 '名S1用户在线'*/
+content: " 名S1用户在线"
+}
+
+span.subscribers:after {               /*将 'subscribers' 变为 '名S1用户'*/
+content: "名S1用户"
+}
+
